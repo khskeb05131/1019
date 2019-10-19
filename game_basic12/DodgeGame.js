@@ -98,28 +98,28 @@ function onkeydown(e)
     switch( e.keyCode )
     {
       case 37: // LEFT
-        intPlayerX-=5;
+        intPlayerX-=30;
         if( intPlayerX < 0 )
         {
           intPlayerX = 0;
         }
       break;
       case 39: // RIGHT
-        intPlayerX+=5;
+        intPlayerX+=30;
         if( intPlayerX > 740 )
         {
           intPlayerX = 740;
         }     
       break;
       case 38: // UP
-        intPlayerY-=5;
+        intPlayerY-=30;
         if( intPlayerY < 0 )
         {
           intPlayerY = 0;
         }
       break;
       case 40: // DOWN
-        intPlayerY+=5;
+        intPlayerY+=30;
         if( intPlayerY > 540 )
         {
           intPlayerY = 540;
